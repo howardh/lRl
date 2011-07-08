@@ -1,0 +1,189 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8540D913C6DD48005B16A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF8540D813C6DD48005B16A3 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF5D8D6113C6DADC00945F0D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF5D8D6313C6DADC00945F0D /* |R| */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "|R|"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8540D813C6DD48005B16A3 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5D8D6013C6DADC00945F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5D8D5813C6DADC00945F0D = {
+			isa = PBXGroup;
+			children = (
+				EF8540D813C6DD48005B16A3 /* main.cpp */,
+				EF5D8D6413C6DADC00945F0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5D8D6413C6DADC00945F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D8D6313C6DADC00945F0D /* |R| */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5D8D6213C6DADC00945F0D /* |R| */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5D8D6C13C6DADC00945F0D /* Build configuration list for PBXNativeTarget "|R|" */;
+			buildPhases = (
+				EF5D8D5F13C6DADC00945F0D /* Sources */,
+				EF5D8D6013C6DADC00945F0D /* Frameworks */,
+				EF5D8D6113C6DADC00945F0D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "|R|";
+			productName = "|R|";
+			productReference = EF5D8D6313C6DADC00945F0D /* |R| */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5D8D5A13C6DADC00945F0D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EF5D8D5D13C6DADC00945F0D /* Build configuration list for PBXProject "|R|" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF5D8D5813C6DADC00945F0D;
+			productRefGroup = EF5D8D6413C6DADC00945F0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5D8D6213C6DADC00945F0D /* |R| */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5D8D5F13C6DADC00945F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8540D913C6DD48005B16A3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF5D8D6A13C6DADC00945F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF5D8D6B13C6DADC00945F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF5D8D6D13C6DADC00945F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF5D8D6E13C6DADC00945F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5D8D5D13C6DADC00945F0D /* Build configuration list for PBXProject "|R|" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5D8D6A13C6DADC00945F0D /* Debug */,
+				EF5D8D6B13C6DADC00945F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5D8D6C13C6DADC00945F0D /* Build configuration list for PBXNativeTarget "|R|" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5D8D6D13C6DADC00945F0D /* Debug */,
+				EF5D8D6E13C6DADC00945F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5D8D5A13C6DADC00945F0D /* Project object */;
+}
